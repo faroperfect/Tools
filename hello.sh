@@ -1,4 +1,5 @@
 #!/bin/bash
+#It can generate a hello world cpp, used for test Makefile env.
 if [ "$1" = "do" ]; then
 if [ -f hello_world.cpp ]; then
 				echo "there is already a hello_world.cpp"
